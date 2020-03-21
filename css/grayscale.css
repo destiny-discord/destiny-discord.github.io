@@ -1,3 +1,9 @@
+html, body {
+  font-family: "Comic Sans MS" !important;
+  background-color: #141414; 
+  cursor: url("../img/painc.png"), auto !important;
+}
+
 .masthead {
   position: relative;
   width: 100%;
@@ -12,16 +18,13 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: "Comic Sans MS" !important;
   font-size: 2.5rem;
-  font-weight: 200;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   text-shadow: 5px 2px 5px rgba(110, 7, 7, 0.8);
   background: -webkit-linear-gradient(rgb(124, 20, 20), rgba(206, 39, 39, 0.5));
-  
   -webkit-text-fill-color: transparent;
-  /* text-shadow: 2px 2px rgba(0, 0, 0, 0.169); */
   -webkit-background-clip: text;
 }
 
@@ -56,11 +59,12 @@
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  /* font-family: 'Varela Round'; */
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
   border: 0;
+  cursor: url("../img/painc.png"), auto !important;
 }
 
 .btn-primary {
@@ -86,12 +90,14 @@ body {
 }
 
 a {
+  cursor: url("../img/painc.png"), auto !important;
   color: #ffffffe1;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #ffffffbb;
+  color: #42d6ff;
+  text-decoration: underline;
 }
 
 .bg-black {
@@ -106,6 +112,3 @@ a:focus, a:hover {
   color: #64a19d !important;
 }
 
-footer {
-  padding: 5rem 0;
-}
